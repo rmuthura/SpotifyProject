@@ -90,8 +90,8 @@ def get_token():
 
 def create_spotify_oauth():
     return SpotifyOAuth(
-        client_id='07768353027244929cfe9d366e2fd6a8',
-        client_secret='9c1b804f2c0c4d939b3806005c8b6c73',
+        client_id='id',
+        client_secret='secret',
         redirect_uri=url_for('redirect_page', _external=True),
         scope='user-top-read user-library-read playlist-modify-public playlist-modify-private user-read-recently-played'
     )
